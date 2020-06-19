@@ -5,7 +5,11 @@
 //  Created by Ivan Bruel on 18/07/16.
 //
 //
+#if os(iOS)
+import UIKit
+#endif
 import Foundation
+
 
 open class MarkdownHeader: MarkdownLevelElement {
 
